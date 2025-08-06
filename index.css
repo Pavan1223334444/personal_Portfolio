@@ -1,0 +1,201 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background-color: #f4f6f8;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 700px;
+  margin: 3em auto;
+  background: #fff;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.07);
+  border-radius: 12px;
+  padding: 2.5em 2em;
+}
+
+h1, h2, h3, h4 {
+  text-align: center;
+  color: #0366d6;
+  margin: 0.4em 0;
+}
+
+h2 {
+  color: #03386d;
+  font-size: 1.4em;
+}
+
+h4 {
+  color: #0366d6;
+  margin-bottom: 0.8em;
+}
+
+p {
+  text-align: center;
+  font-size: 1.1em;
+  color: #24292e;
+  margin-bottom: 2em;
+}
+
+.profile-photo-wrapper {
+  text-align: center;
+  margin-bottom: 1.2em;
+}
+
+.profile-photo-wrapper img {
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #0366d6;
+  box-shadow: 0 2px 12px rgba(3, 102, 214, 0.1);
+  width: 150px;
+  height: 150px;
+  transition: box-shadow 0.2s;
+}
+
+.profile-photo-wrapper img:hover {
+  box-shadow: 0 4px 16px rgba(3, 102, 214, 0.18);
+}
+
+.skills-list {
+  display: flex;
+  justify-content: space-around;
+  margin: 1.5em 0 2em 0;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+
+.skills-list ul {
+  list-style: none;
+  padding: 0;
+  min-width: 100px;
+}
+
+.skills-list li {
+  background: #e1ecf4;
+  color: #0366d6;
+  margin: 0.6em 0;
+  padding: 0.6em 1em;
+  border-radius: 6px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 2em 0 1em 0;
+}
+
+.social a img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  transition: transform 0.2s ease;
+}
+
+.social a:hover img {
+  transform: scale(1.08);
+  box-shadow: 0 2px 8px rgba(3, 102, 214, 0.15);
+}
+
+.links {
+  text-align: center;
+  margin: 2em 0 1em 0;
+}
+
+.links a {
+  display: inline-block;
+  background: #0366d6;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.7em 1.5em;
+  margin: 0 1em;
+  border-radius: 6px;
+  transition: background 0.2s ease;
+  font-weight: bold;
+}
+
+.links a:hover {
+  background: #03386d;
+}
+
+@media (max-width: 600px) {
+  .skills-list {
+    flex-direction: column;
+    align-items: center;
+  }
+  .skills-list ul {
+    min-width: auto;
+  }
+  
+}
+
+}
+   
+   
+   
+   
+.contact-details {
+  color: blue;
+  /* border removed as per your last request */
+  border-radius: 10%;
+  padding: 20px;
+  text-align: left;
+  max-width: 400px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.contact-details label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.contact-details input,
+.contact-details textarea {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  font-family: Arial, sans-serif;
+}
+
+.contact-details textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.button {
+  color: green;
+  border-radius: 5%;
+  background-color: rgb(200, 200, 217);
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  font-size: large;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto 0;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: rgb(170, 170, 190);
+}
+
+.marquee {
+  background-color: brown;
+  padding-top: 1%;
+  font-size: medium;
+  color: darkblue;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
